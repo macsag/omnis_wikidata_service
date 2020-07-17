@@ -1,0 +1,16 @@
+geographical_descriptor:
+  - select: '?instanceOf'
+    property_id: 'wdt:P31'
+    label: true
+  - select: '?headOfGovernment'
+    property_id: 'wdt:P6'
+    label: true
+  - select: '?population'
+    property_id: 'wdt:P1082'
+    label: false
+  - select: '?inception'
+    property_id: 'wdt:P571'
+    label: false
+  - select: '?twinnedAdministrativeBody'
+    property_id: 'wdt:P190'
+    label: true
